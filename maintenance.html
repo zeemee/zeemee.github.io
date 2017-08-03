@@ -1,0 +1,43 @@
+<!doctype html>
+<title>Site Maintenance</title>
+<style>
+  body { font-family: ; text-align: center; padding: 150px; }
+  h1 { font-size: 50px; }
+  body { font: 20px "proxima-nova", arial; color: #333; }
+  article { display: block; text-align: left; width: 650px; margin: 0 auto; }
+  a { color: #dc8100; text-decoration: none; }
+  a:hover { color: #333; text-decoration: none; }
+  p { line-height: 1.5 }
+  .logo { width: 210px;}
+</style>
+<body>
+<article>
+    <img class="logo" src="https://s11.postimg.org/bt5kmv4sz/Zee_Mee-logo-orangedark.png" alt="ZeeMee Logo">
+    <h1>We&rsquo;ll be back soon!</h1>
+    <div>
+        <p>We're undergoing some sweet enhancements. ZeeMee is updating overnight to our brand-spanking-new experience. Please check back in the morning for the greatness that shall be revealed.</p>
+        <p>&mdash; The ZeeMee Team</p>
+    </div>
+</article>
+</body>
+
+<script src="https://use.typekit.net/mtj0grj.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script>
+<script>
+  (function(d) {
+    loadFonts = 1;
+    if(window.sessionStorage){
+      if(sessionStorage.getItem('useTypekit')==='false'){
+        loadFonts = 0;
+      }
+    }
+    if (loadFonts == 1) {
+      var config = {
+        kitId: 'mtj0grj',
+        scriptTimeout: 3000,
+        async: true
+      },
+      h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";if(window.sessionStorage){sessionStorage.setItem("useTypekit","false")}},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+="wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s);
+    }
+  })(document);
+</script>
